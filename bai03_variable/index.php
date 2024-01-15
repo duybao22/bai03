@@ -1,26 +1,42 @@
 <?php
-$x = 10.365;
-var_dump($x)
-?><?php
 $a = 5;
-echo $a; 
-?>
-<?php
-$a = 5;
-$A = 10;
-echo $a; 
+$b = 10;
+echo $a;   
 echo '<br>'; 
-echo $A; 
-?><?php
-$str = 'Hello World';
-echo '<br>'; 
-echo $str;
-?><?php
-$firstname = 'nguyen';
-$lastname = 'Van an';
-$fullname = $firstname .' '. $lastname;
+echo $b;
+
+
 echo '<br>';
+define('PI', 3.14);
+echo PI;
+
+echo '<br>';
+$tr = "Hello World";
+echo $tr;
+
+echo '<br>';
+$firstname ='Nguyen';
+$lastname  ='Van Nam';
+$fullname  = $firstname .' '.$lastname;
 echo $fullname;
-?><?php
-$cars = array('Toyota', 'Bmw', 'Volvo');
+
+echo '<br>';
+$a = 8;
+$b = 9;
+var_dump($a);
+echo '<br>';
+var_dump($b);
+
+
+echo '<br>';
+$x =10.356;
+$y =8.555;
+var_dump($x);
+echo '<br>';
+var_dump($y);
+
+
+echo '<br>';
+$cars = array('Toyota','BMW','Volvo');
+var_dump($cars);
 ?>
